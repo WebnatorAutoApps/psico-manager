@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FEATURES = [
   {
     title: "Agenda inteligente",
@@ -44,6 +46,15 @@ export default function HomePage() {
             <p className="mt-2 text-gray-600">{feature.description}</p>
           </div>
         ))}
+      </section>
+
+      <section className="mt-12">
+        <Link
+          href="/patients"
+          className="rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Gestionar pacientes
+        </Link>
       </section>
 
       <footer className="mt-24 text-sm text-gray-400">
