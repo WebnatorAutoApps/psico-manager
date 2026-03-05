@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"no build\"",
+    "test": "echo \"ok\""
+  }
+}
